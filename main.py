@@ -19,7 +19,7 @@
 listOfOrders = ["Coffee" "Cake" "Tea"]
 price = 0
 for i in range(len(listOfOrders)):
-  mssage = "Would you like to buy a ", str(listOfOrders[i]), ". Yes / No   "
+  message = "Would you like to buy a ", str(listOfOrders[i]), ". Yes / No   "
   myOrder = str( input(message))
 
   if myOrder == "Yes" and i == 1:
